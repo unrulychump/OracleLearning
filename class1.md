@@ -28,3 +28,16 @@
 
 默认端口5500         https://localhost:5500/em
 
+实际上我没有用过用户名。。。。。。。
+
+![image-20230918200503674](./assets/image-20230918200503674.png)
+
+管理员 sys password  as sysdba
+
+修改密码：
+
+alter user sys identified by wyg2002657;
+
+修改后成功登录，不要填container选项
+
+![image-20230918202453322](./assets/image-20230918202453322.png)
